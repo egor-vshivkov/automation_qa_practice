@@ -1,0 +1,4 @@
+.idea/
+.venv
+creds.py
+.env
