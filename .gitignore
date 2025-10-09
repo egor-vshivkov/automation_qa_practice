@@ -2,3 +2,4 @@
 .venv
 creds.py
 .env
+__pycache__
