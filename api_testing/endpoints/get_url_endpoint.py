@@ -1,5 +1,5 @@
 import requests
-from endpoints.endpoints_handler import Endpoint
+from endpoints.get_url_endpoint import Endpoint
 
 
 class GetUrlEndpoint(Endpoint):
