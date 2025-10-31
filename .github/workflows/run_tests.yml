@@ -1,4 +1,4 @@
-name: Python autotests.
+name: Python autotests
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       deployment_target:
         description: choose tests set
         required: true
-        type: choose
+        type: choice
         default: smoke
         options:
           - smoke
