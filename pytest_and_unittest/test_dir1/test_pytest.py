@@ -64,7 +64,7 @@ def test_add_post(hello):
 
 @allure.feature('Example')
 @allure.story('Equals')
-@pytest.mark.regression
+@pytest.mark.custom
 def test_one():
     # time.sleep(3)
     assert 1 == 1
