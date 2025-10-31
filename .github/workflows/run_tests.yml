@@ -13,6 +13,7 @@ on:
           - regression
           - extended
           - all
+          - custom
 
 jobs:
   run-tests:
@@ -39,3 +40,7 @@ jobs:
       - name: Run extended tests
         if: "github.event.inputs.deployment_target == 'extended'"
         run: pytest -m extended
+      - name: Run custom tests
+        if: "github.event.inputs.deployment_target == 'custom'"
+        run: pytest -m custom
+
